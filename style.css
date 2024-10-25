@@ -32,7 +32,7 @@ div {
 }
 
 .banner {
-    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url(../images/banner.png);
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url(images/banner.png);
     background-size: 100%auto;
     background-position: center;
     background-repeat: no-repeat;
@@ -48,9 +48,9 @@ div {
 
 header{
     background-color: #0a1823;
-    padding: 40px 0px;
-   
-    margin-bottom: 40px;}
+    padding: 40px 0px; 
+    margin-bottom: 40px;
+}
 
 body {
     font-family: Arial, sans-serif;
@@ -67,6 +67,7 @@ h1 {
         background: -webkit-linear-gradient(#33A8DB, #1472B7);
         background-clip: text;
         -webkit-background-clip: text;
+        margin-top: 15px;
     }
 p {
     font-size: 1.0em;
@@ -185,7 +186,7 @@ section {
     margin-bottom: 60px;
 }
 footer {
-    padding: 30px 0;
+    padding: 25px 0 10px;
     text-align: center;
     background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
     border-top: 1px solid #33A8DB80;
